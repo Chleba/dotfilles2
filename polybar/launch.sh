@@ -3,6 +3,8 @@
 #Must be at ~/.config/polybar/config/launch.sh
 
 # Terminate already running bar instances
+# killall -q polybar
+
 killall -q polybar
 
 # Wait until the processes have been shut down
